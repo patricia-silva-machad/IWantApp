@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "Lz7nyID7iaV9I4ZRQmN1OjZSoQ2Ikrr5g4YLTMMz1lelZt9o0DHiPwmbGcsCY1+WiQKE2gDQdP+RwR0Z71jd+g==",
+  "dgSpecHash": "EH9m3CCAKFyt7myKsAWibIaDFxBdhZFFLkrFwsDbyE4yjCgPgBXE8PcikRS1WjFKP8JJX2x13R7SbGV3IdEAlQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\patri\\Dotnet6-Udemy\\IWantApp\\src\\IWantApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\patri\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\patri\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\patri\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
