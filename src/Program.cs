@@ -14,6 +14,8 @@ builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => {
     options.Password.RequiredLength = 3;
 })
     .AddEntityFrameworkStores<ApplicationDbContext>();
+//addScoped: quando a classe precisar ser instanciada o aspNet vai identificar que a classe precisa de um IConfiguration 
+builder.Services.AddScoped<QueryAllUsersWithClaimName>();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
