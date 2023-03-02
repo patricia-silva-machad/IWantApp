@@ -18,7 +18,7 @@ public class TokenPost {
             Results.BadRequest();
         if (!userManager.CheckPasswordAsync(user, loginRequest.Password).Result)
             Results.BadRequest();
-        var key = Encoding.ASCII.GetBytes("D@awsdefrRRgergCosE22");
+        var key = Encoding.ASCII.GetBytes("D@awsdefrRRgergCosE24");
         var tokenDescriptor = new SecurityTokenDescriptor {
             Subject = new ClaimsIdentity(new Claim[] {
                 new Claim(ClaimTypes.Email, loginRequest.Email),
